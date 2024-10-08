@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealthome</title>
+    <meta name="title" content="Wealthome">
+    <meta name="description" content="This is a realestate website devloped by Shubham Singh">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- GOOGLE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- GOOGLE ICON LINK -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="190" height="28" alt="Wealthome">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="navbar-link label-medium active">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link label-medium">Rent</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link label-medium">Sell</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link label-medium">Buy</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link label-medium">About</a>
+                    </li>
+                </ul>
+
+                <div class="navbar-wrapper">
+                    <a href="#" class="btn-link label-medium">Login</a>
+
+                    <a href="#" class="btn btn-fill label-medium">Get Started</a>
+                </div>
+            </nav>
+
+            <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+                <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+                <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+            </button>
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+
+            <!-- HERO -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="headline-large hero-title">Find a place where you can be yourself.</h1>
+
+                        <p class="body-large hero-text">If you're looking for a place where you can be yourself, don't
+                            give up. Keep searching until you find a place that feels like home.</p>
+
+                        <form action="./" method="get" class="search-bar">
+                            <label class="search-item">
+                                <span class="label-medium label">Want to</span>
+                                <select name="want-to" class="search-item-field body-medium">
+                                    <option value="buy" selected>Buy</option>
+                                    <option value="sell">Sell</option>
+                                    <option value="rent">Rent</option>
+                                </select>
+
+                                <span class="material-symbols-rounded" aria-hidden="true">real_estate_agent</span>
+                            </label>
+
+                            <label class="search-item">
+                                <span class="label-medium label">Property type</span>
+                                <select name="property-type" class="search-item-field body-medium">
+                                    <option value="any" selected>Any</option>
+                                    <option value="houses" selected>Houses</option>
+                                    <option value="apartments" selected>Apatments</option>
+                                    <option value="villa" selected>Villa</option>
+                                    <option value="tounhouse" selected>Townhouse</option>
+                                    <option value="bungalow" selected>Bungalow</option>
+                                    <option value="loft" selected>Loft</option>
+                                </select>
+
+                                <span class="material-symbols-rounded" aria-hidden="true">gite</span>
+                            </label>
+
+                            <label class="search-item">
+                                <span class="label-medium label">Location</span>
+                                <input type="text" name="Location" placeholder="Street, City, Zip..."
+                                    class="search-item-field body-medium">
+
+                                <span class="material-symbols-rounded" aria-hidden="true">location_on</span>
+                            </label>
+
+                            <button type="submit" class="search-btn">
+                                <span class="material-symbols-rounded" aria-hidden="true">search</span>
+                                <span class="label-medium">Search</span>
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                    <img src="./assets/images/hero.png" width="816" height="659" role="presentation"
+                        class="hero-banner">
+
+                    <img src="./assets/images/bg-pattern.png" width="1240" height="840" role="presentation"
+                        class="bg-pattern">
+
+                </div>
+            </section>
+
+
+            <!-- PROPERTY SECTION -->
+
+        </article>
+    </main>
+
+
+
+    <!-- CUSTOM SCRIPT LINK -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
