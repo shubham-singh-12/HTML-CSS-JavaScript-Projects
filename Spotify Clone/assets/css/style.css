@@ -1,0 +1,111 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 65px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 45px;
+    padding: 0 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+.container {
+    min-height: 65vh;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.botton {
+    position: sticky;
+    height: 100px;
+    background-color: #000000;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
