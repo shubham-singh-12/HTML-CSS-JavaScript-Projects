@@ -9,7 +9,7 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     {
-        songName: "Warriyo - Mortals",
+        songName: "Warriyo - Mortals [NCS Release]",
         filePath: "./assets/songs/1.mp3",
         coverPath: "./assets/images/1.jpg"
     },
@@ -19,17 +19,17 @@ let songs = [
         coverPath: "./assets/images/2.jpg"
     },
     {
-        songName: "DEAF KEV - Invincible",
+        songName: "DEAF KEV - Invincible [NCS Release]-320k",
         filePath: "./assets/songs/3.mp3",
         coverPath: "./assets/images/3.jpg"
     },
     {
-        songName: "Different Heaven & EH!DE",
+        songName: "Different Heaven & EH!DE - My Heart [NCS Release]",
         filePath: "./assets/songs/4.mp3",
         coverPath: "./assets/images/4.jpg"
     },
     {
-        songName: "Janji-Heroes-Tonight",
+        songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release",
         filePath: "./assets/songs/5.mp3",
         coverPath: "./assets/images/5.jpg"
     },
@@ -92,16 +92,4 @@ audioElement.addEventListener('timeupdate', () => {
 
 myProgressBar.addEventListener('change', () => {
     audioElement.currentTime = myProgressBar.value * audioElement.duration / 100;
-})
-
-const makeAllPlays = () => {
-
-}
-
-Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) => {
-    element.addEventListener('click', (e) => {
-        makeAllPlays();
-        e.target.classList.remove('fa-circle-play');
-        e.target.classList.remove('fa-circle-pause');
-    })
 })
